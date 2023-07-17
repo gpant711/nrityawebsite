@@ -42,14 +42,16 @@ const Home: Component = () => {
             />
           </div>
           <div class={styles.image}>
-            <span class={styles.imagetext}>Contact</span>
-            <img
-              src={
-                'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3301.JPEG?raw=true'
-              }
-              //width={300}
-              alt="logo"
-            />
+            <A href="/contact">
+              <span class={styles.imagetext}>Contact</span>
+              <img
+                src={
+                  'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3301.JPEG?raw=true'
+                }
+                //width={300}
+                alt="logo"
+              />
+            </A>
           </div>
         </div>
       </header>

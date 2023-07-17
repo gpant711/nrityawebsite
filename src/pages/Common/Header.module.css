@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+  margin-top: 10px;
+}
