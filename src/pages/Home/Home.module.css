@@ -28,7 +28,7 @@
 .image img {
   transform-origin: 50% 65%;
   transition: transform 2s, filter 2s ease-in;
-  filter: brightness(120%);
+  filter: grayscale(100%);
   /* width: 25vw;
   height: 500px; */
   width: 25vw;
@@ -37,7 +37,7 @@
 
 /* The Transformation */
 .image:hover img {
-  filter: brightness(100%);
+  filter: none;
   transform: scale(1.4);
 }
 

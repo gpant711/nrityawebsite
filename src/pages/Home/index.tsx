@@ -12,7 +12,7 @@ const Home: Component = () => {
             <span class={styles.imagetext}>HOME</span>
             <img
               src={
-                'https://github.com/borakuldeep/nrityangana/blob/main/websiteimg1.jpg?raw=true'
+                'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg1.jpg?raw=true'
               }
               //width={300}
               alt="logo"
@@ -23,7 +23,7 @@ const Home: Component = () => {
               <span class={styles.imagetext}>ABOUT</span>
               <img
                 src={
-                  'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3254.JPEG?raw=true'
+                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg2.jpg?raw=true'
                 }
                 //width={300}
                 alt="logo"
@@ -31,14 +31,16 @@ const Home: Component = () => {
             </A>
           </div>
           <div class={styles.image}>
-            <span class={styles.imagetext}>GALLERY</span>
-            <img
-              src={
-                'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3295.JPEG?raw=true'
-              }
-              //width={300}
-              alt="logo"
-            />
+            <A href="/gallery">
+              <span class={styles.imagetext}>GALLERY</span>
+              <img
+                src={
+                  'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3295.JPEG?raw=true'
+                }
+                //width={300}
+                alt="logo"
+              />
+            </A>
           </div>
           <div class={styles.image}>
             <A href="/contact">

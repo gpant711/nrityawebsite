@@ -1,0 +1,49 @@
+.galleryimage {
+  width: 40%;
+  background-size: cover;
+  opacity: 50%;
+  background-image: url('https://github.com/borakuldeep/nrityangana/blob/main/IMG_3295.JPEG?raw=true');
+  transform-origin: 50% 65%;
+  transition: transform 2s, filter 2s ease-in;
+  filter: brightness(120%);
+}
+
+.galleryimage:hover {
+  filter: brightness(100%);
+  transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+  .galleryimage {
+    display: none;
+  }
+}
+
+.vid {
+  max-width: 500px;
+  border-radius: 10px;
+  border: 4px solid #867f8d;
+  filter: grayscale(100%);
+  margin-bottom: 10px;
+}
+
+.vid:hover {
+  filter: none;
+}
+
+.vidcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  line-height: 5%;
+}
+
+.yt {
+  background-color: rgb(252, 66, 66);
+  padding: 9px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  width: 150px;
+  text-decoration: none;
+}
