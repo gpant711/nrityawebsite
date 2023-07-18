@@ -1,16 +1,5 @@
-.contactpage {
-  display: flex;
-  background-image: linear-gradient(to right, #f2f0ff, black);
-  height: 100vh;
-}
-
-.contacttext {
-  width: 70%;
-  padding: 2rem;
-}
-
 .contactimage {
-  width: 70%;
+  width: 80%;
   background-size: cover;
   opacity: 70%;
   background-image: url('https://github.com/borakuldeep/nrityangana/blob/main/IMG_3301.JPEG?raw=true');
@@ -21,5 +10,5 @@
 
 .contactimage:hover {
   filter: brightness(100%);
-  transform: scale(1.1);
+  transform: scale(1.03);
 }

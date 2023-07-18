@@ -12,3 +12,14 @@
   font-size: calc(7px + 2vmin);
   color: rgb(65, 60, 60);
 }
+
+.page {
+  display: flex;
+  background-image: linear-gradient(to right, #f2f0ff, rgb(61, 61, 61));
+  height: 100vh;
+}
+
+.pagetext {
+  width: 70%;
+  padding: 2rem;
+}

@@ -1,13 +1,14 @@
 import type { Component } from 'solid-js';
 import Nav from '../Common/Nav';
 import styles from './About.module.css';
+import globalstyles from '../../App.module.css';
 
 const About: Component = () => {
   return (
     <>
       <Nav currentPage="ABOUT" />
-      <div class={styles.aboutpage}>
-        <div class={styles.abouttext}>
+      <div class={globalstyles.page}>
+        <div class={globalstyles.pagetext}>
           <h1>Welcome to NK Dance School</h1>
           <p>
             Your gateway to the vibrant and captivating world of Indian dance
@@ -17,15 +18,7 @@ const About: Component = () => {
             cross-culture exchange.
           </p>
         </div>
-        <div class={styles.aboutimage}>
-          {/* <img
-          src={
-            'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3254.JPEG?raw=true'
-          }
-          width={400}
-          alt="logo"
-        /> */}
-        </div>
+        <div class={styles.aboutimage}></div>
       </div>
     </>
   );
