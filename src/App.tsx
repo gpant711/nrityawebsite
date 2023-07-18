@@ -4,6 +4,7 @@ import { Router, Route, Routes } from '@solidjs/router';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 import styles from './App.module.css';
 
 const App: Component = () => {
@@ -16,7 +17,7 @@ const App: Component = () => {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/gallery" component={Contact} />
+        <Route path="/gallery" component={Gallery} />
       </Routes>
     </Router>
   );

@@ -12,3 +12,9 @@
   filter: brightness(100%);
   transform: scale(1.03);
 }
+
+@media (max-width: 600px) {
+  .aboutimage {
+    display: none;
+  }
+}
