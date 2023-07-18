@@ -1,11 +1,11 @@
 import type { Component } from 'solid-js';
-import Header from '../Common/Header';
+import Nav from '../Common/Nav';
 import styles from './Contact.module.css';
 
 const About: Component = () => {
   return (
     <>
-      <Header />
+      <Nav currentPage="CONTACT" />
       <div class={styles.contactpage}>
         <div class={styles.contacttext}>
           <h1>Contact</h1>

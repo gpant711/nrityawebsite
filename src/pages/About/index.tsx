@@ -1,11 +1,11 @@
 import type { Component } from 'solid-js';
-import Header from '../Common/Header';
+import Nav from '../Common/Nav';
 import styles from './About.module.css';
 
 const About: Component = () => {
   return (
     <>
-      <Header />
+      <Nav currentPage="ABOUT" />
       <div class={styles.aboutpage}>
         <div class={styles.abouttext}>
           <h1>Welcome to NK Dance School</h1>
