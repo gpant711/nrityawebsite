@@ -7,10 +7,9 @@ const Home: Component = () => {
   return (
     <div class={styles.App}>
       <header class={styles.header}>
-        <p>NRITYA KALPNA</p>
         <div class={styles.images}>
           <div class={styles.image}>
-            <span class={styles.imagetext}>Home</span>
+            <span class={styles.imagetext}>HOME</span>
             <img
               src={
                 'https://github.com/borakuldeep/nrityangana/blob/main/websiteimg1.jpg?raw=true'
@@ -21,7 +20,7 @@ const Home: Component = () => {
           </div>
           <div class={styles.image}>
             <A href="/about">
-              <span class={styles.imagetext}>About</span>
+              <span class={styles.imagetext}>ABOUT</span>
               <img
                 src={
                   'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3254.JPEG?raw=true'
@@ -32,7 +31,7 @@ const Home: Component = () => {
             </A>
           </div>
           <div class={styles.image}>
-            <span class={styles.imagetext}>Gallery</span>
+            <span class={styles.imagetext}>GALLERY</span>
             <img
               src={
                 'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3295.JPEG?raw=true'
@@ -43,7 +42,7 @@ const Home: Component = () => {
           </div>
           <div class={styles.image}>
             <A href="/contact">
-              <span class={styles.imagetext}>Contact</span>
+              <span class={styles.imagetext}>CONTACT</span>
               <img
                 src={
                   'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3301.JPEG?raw=true'

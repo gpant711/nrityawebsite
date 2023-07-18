@@ -4,10 +4,14 @@ import { Router, Route, Routes } from '@solidjs/router';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import styles from './App.module.css';
 
 const App: Component = () => {
   return (
     <Router>
+      <header class={styles.header}>
+        <p>N R I T Y A . K A L P N A</p>
+      </header>
       <Routes>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
