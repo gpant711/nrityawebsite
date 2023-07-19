@@ -1,6 +1,6 @@
 import type { Component } from 'solid-js';
 import Nav from '../Common/Nav';
-import Carousel from './Carousel';
+import Carousel from './Carousel2';
 import styles from './Gallery.module.css';
 import globalstyles from '../../App.module.css';
 
@@ -52,11 +52,12 @@ const Gallery: Component = () => {
               allowfullscreen
             ></iframe>
           </div>
-
-          <p>Checkout our YouTube channel for more videos.</p>
-          <a class={styles.yt} href="https://www.youtube.com/@Nrityakalpna">
-            VISIT CHANNEL
-          </a>
+          <div class={styles.info}>
+            <p>Checkout our YouTube channel for more videos.</p>
+            <a class={styles.yt} href="https://www.youtube.com/@Nrityakalpna">
+              VISIT CHANNEL
+            </a>
+          </div>
         </div>
         <div class={styles.galleryimage}></div>
       </div>
