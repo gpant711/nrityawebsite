@@ -26,7 +26,15 @@ const Carousel: Component = () => {
           </a>
         </li>
         <li id="carousel__slide3" tabindex="0" class={styles.carousel__slide}>
-          <div class={styles.carousel__snapper}></div>
+          <div class={styles.carousel__snapper}>
+            <img
+              src={
+                'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg1.jpg?raw=true'
+              }
+              width={300}
+              alt="logo"
+            />
+          </div>
           <a href="#carousel__slide2" class={styles.carousel__prev}>
             Go to previous slide
           </a>
@@ -51,7 +59,7 @@ const Carousel: Component = () => {
               href="#carousel__slide1"
               class={styles.carousel__navigation_button}
             >
-              Go to slide 1
+              ASSZSXSDSXX
             </a>
           </li>
           <li class={styles.carousel__navigation_item}>
