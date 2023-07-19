@@ -10,6 +10,7 @@
   margin-top: 10px;
   font-size: calc(5px + 2vmin);
   letter-spacing: 5px;
+  transition: letter-spacing 1s ease-in;
 }
 .images {
   display: flex;
@@ -37,6 +38,11 @@
 .image:hover img {
   filter: none;
   transform: scale(1.4);
+}
+
+.image:hover .imagetext {
+  letter-spacing: 15px;
+  /* transform: scale(1.4); */
 }
 
 @media (max-width: 900px) {
