@@ -1,5 +1,6 @@
 import type { Component } from 'solid-js';
 import Nav from '../Common/Nav';
+import Carousel from './Carousel';
 import styles from './Gallery.module.css';
 import globalstyles from '../../App.module.css';
 
@@ -7,10 +8,11 @@ const Gallery: Component = () => {
   return (
     <>
       <Nav currentPage="GALLERY" />
-      <div class={globalstyles.page}>
+      <div class={styles.page}>
         <div class={globalstyles.pagetext}>
           <h1>Gallery</h1>
           <p>:</p>
+          <Carousel />
           <div class={styles.vidcontainer}>
             <iframe
               width="300"
