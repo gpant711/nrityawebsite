@@ -23,7 +23,7 @@ const Home: Component = () => {
               <span class={styles.imagetext}>ABOUT</span>
               <img
                 src={
-                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg2.jpg?raw=true'
+                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg3.jpg?raw=true'
                 }
                 //width={300}
                 alt="logo"
@@ -35,7 +35,7 @@ const Home: Component = () => {
               <span class={styles.imagetext}>GALLERY</span>
               <img
                 src={
-                  'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3295.JPEG?raw=true'
+                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg4.jpg?raw=true'
                 }
                 //width={300}
                 alt="logo"
@@ -47,7 +47,7 @@ const Home: Component = () => {
               <span class={styles.imagetext}>CONTACT</span>
               <img
                 src={
-                  'https://github.com/borakuldeep/nrityangana/blob/main/IMG_3301.JPEG?raw=true'
+                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg5.jpg?raw=true'
                 }
                 //width={300}
                 alt="logo"
