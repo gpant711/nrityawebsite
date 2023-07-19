@@ -2,15 +2,13 @@
   width: 80%;
   background-size: cover;
   opacity: 70%;
-  background-image: url('https://github.com/borakuldeep/nrityangana/blob/main/IMG_3301.JPEG?raw=true');
-  transform-origin: 50% 65%;
-  transition: transform 2s, filter 2s ease-in;
-  filter: brightness(120%);
+  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg5.jpg?raw=true');
+  transition: filter 1s ease-in;
+  filter: grayscale(100%);
 }
 
 .contactimage:hover {
-  filter: brightness(100%);
-  transform: scale(1.03);
+  filter: none;
 }
 
 @media (max-width: 600px) {
