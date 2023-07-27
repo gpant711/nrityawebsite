@@ -35,6 +35,10 @@
   filter: none;
 }
 
+.galleryheader {
+  display: flex;
+  justify-content: center;
+}
 .vidcontainer {
   display: flex;
   flex-wrap: wrap;

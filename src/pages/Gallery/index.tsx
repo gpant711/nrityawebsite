@@ -10,8 +10,9 @@ const Gallery: Component = () => {
       <Nav currentPage="GALLERY" />
       <div class={styles.page}>
         <div class={globalstyles.pagetext}>
-          <h1>Gallery</h1>
-          <p>:</p>
+          <div class={styles.galleryheader}>
+            <h1>Gallery</h1>
+          </div>
           <Carousel />
           <div class={styles.vidcontainer}>
             <iframe

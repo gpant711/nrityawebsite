@@ -6,3 +6,16 @@
   width: 550px;
   height: 400px;
 }
+
+@media (max-width: 600px) {
+  .slides {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .w3-display-left {
+    top: 35% !important;
+  }
+}
