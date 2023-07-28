@@ -12,10 +12,8 @@ const Home: Component = () => {
             <span class={styles.imagetext}>HOME</span>
             <img
               src={
-                // 'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg1.jpg?raw=true'
                 'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/home.jpeg?raw=true'
               }
-              //width={300}
               alt="logo"
             />
           </div>
@@ -24,10 +22,8 @@ const Home: Component = () => {
               <span class={styles.imagetext}>ABOUT</span>
               <img
                 src={
-                  // 'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg3.jpg?raw=true'
                   'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/about.jpg?raw=true'
                 }
-                //width={300}
                 alt="logo"
               />
             </A>
@@ -37,10 +33,8 @@ const Home: Component = () => {
               <span class={styles.imagetext}>GALLERY</span>
               <img
                 src={
-                  // 'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg6.jpg?raw=true'
                   'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/gallery.jpg?raw=true'
                 }
-                //width={300}
                 alt="logo"
               />
             </A>
@@ -50,10 +44,8 @@ const Home: Component = () => {
               <span class={styles.imagetext}>CONTACT</span>
               <img
                 src={
-                  // 'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg5.jpg?raw=true'
                   'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/contact.jpeg?raw=true'
                 }
-                //width={300}
                 alt="logo"
               />
             </A>
