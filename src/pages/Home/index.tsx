@@ -35,7 +35,7 @@ const Home: Component = () => {
               <span class={styles.imagetext}>GALLERY</span>
               <img
                 src={
-                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg4.jpg?raw=true'
+                  'https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg6.jpg?raw=true'
                 }
                 //width={300}
                 alt="logo"
