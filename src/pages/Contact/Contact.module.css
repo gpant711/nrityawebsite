@@ -2,7 +2,8 @@
   width: 80%;
   background-size: cover;
   opacity: 70%;
-  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg5.jpg?raw=true');
+  -background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg5.jpg?raw=true');
+  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/contact.jpeg?raw=true');
   transition: filter 1s ease-in;
   filter: grayscale(100%);
 }

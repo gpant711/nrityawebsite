@@ -8,7 +8,8 @@
   width: 50%;
   background-size: cover;
   opacity: 50%;
-  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg4.jpg?raw=true');
+  -background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/webimg4.jpg?raw=true');
+  background-image: url('https://github.com/borakuldeep/solidjs-templates-sftyh4/blob/main/src/assets/lowres/gallery.jpg?raw=true');
   transition: filter 1s ease-in;
   filter: grayscale(100%);
 }
