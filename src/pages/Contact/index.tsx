@@ -11,6 +11,10 @@ const About: Component = () => {
         <div class={globalstyles.pagetext}>
           <h1>Contact</h1>
           <p>Contact us at:</p>
+          <p>kalpna711@gmail.com</p>
+          <p>+1 832-759-1762</p>
+          <p>Insta - @nrityakalpna</p>
+          <p>FB - Kalpna Bora</p>
         </div>
         <div class={styles.contactimage}></div>
       </div>
@@ -19,3 +23,4 @@ const About: Component = () => {
 };
 
 export default About;
+
